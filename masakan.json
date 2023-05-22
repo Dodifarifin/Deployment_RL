@@ -8,7 +8,7 @@
         "halo",
         "hei",
         "hi",
-        "hy",        
+        "hy"    
       ],
       "responses": [
         "Hai! Mau tau informasi tentang apa nih?",
@@ -25,10 +25,10 @@
         "apa itu RaSa",
         "Rasa",
         "RaSa",
-        "rasa",        
+        "rasa"       
       ],
       "responses": [
-        "Hai! RaSa (Racikan Nusantara) merupakan sebuat chat bot yang terintegrasi dalam sebuah webb-app yang dibuat oleh kelompok Lexicon, web app ini menyediakan pelayanan seputar resep masakan yang ada di Nusantara dan khususnya di Jaawa Tengah untuk saat ini. Kamu bisa menanyakan berbagai Resep Masakan yng nanti akan langsung dijawab oleh kami.",        
+        "Hai! RaSa (Racikan Nusantara) merupakan sebuat chat bot yang terintegrasi dalam sebuah webb-app yang dibuat oleh kelompok Lexicon, web app ini menyediakan pelayanan seputar resep masakan yang ada di Nusantara dan khususnya di Jaawa Tengah untuk saat ini. Kamu bisa menanyakan berbagai Resep Masakan yng nanti akan langsung dijawab oleh kami."       
       ]
     },
     {
@@ -37,10 +37,10 @@
         "makanan khas jawa tengah",
         "ada apa saja disini",
         "resep masakan",
-        "resep yang tersedia",                
+        "resep yang tersedia"                
       ],
       "responses": [
-        "beberapa masakan yang kami tawarkan untuk kamu : \\n1. Garang Asem \\n2. Nasi Gundul \\n 3.Soto Kudus",        
+        "beberapa masakan yang kami tawarkan untuk kamu : \\n1. Garang Asem \\n2. Nasi Gundul \\n 3.Soto Kudus \\n4. Nasi Grombyang \\n5. Mie Ongklok \\n6. Nasi Liwet \\n7. Mangut Beong \\n8. Sup Matahari"        
       ]
     },
     {
@@ -55,7 +55,7 @@
     {
       "tag": "sejarahGarangasem",
       "patterns": [
-        "apa itu garang asem", "garang asem", "Bagaimana sejarah garangasem", 
+        "apa itu garang asem", "garang asem", "Bagaimana sejarah garangasem" 
       ],
       "responses": [
         "Ada dua cerita mengenai asal mula nama Garang Asem ini. Pertama, Garang Asem dipercaya diambil dari nama desa di Kudus yaitu Desa Garang. Kedua, dinamakan Garang Asem karena makanan tersebut pedas (garang) dan asam (asem). Garang Asem merupakan makanan mewah untuk kalangan bangsawan. Hal tersebut karena daging ayam kampung yang harganya mahal."        
@@ -118,7 +118,7 @@
     {
       "tag": "Mie Ongklok",
       "patterns":[
-        "Mie Ongklok", "Resep Mie Ongklok", "Bagaimana cara membuat Mie Ongklok", "Bahan Mie Ongklok", "Buat Mie Ongklok", "Bagaimana sejarah Mie Ongklok"
+        "Resep Mie Ongklok", "Bagaimana cara membuat Mie Ongklok", "Bahan Mie Ongklok", "Buat Mie Ongklok"
       ],
       "responses":[
         "Bahan : 200 gram mie kuning, rebus sebentar, tiriskan. 50 gram kol. 1 sdm saus tiram. 1 sdm tepung maizena, larutkan dengan air. 500 ml kaldu sapi batang daun bawang, iris tipis. 2 sdm kecap manis. minyak secukupnya. Bumbu halus : 3 siung bawang putih. 1 sdm ebi kering. 3 siung bawang merah. garam dan gula secukupnya. 1/4 sdt merica bubuk. Cara memasak : Tumis bumbu halus, tuang saus tiram dan kecap manis, aduk rata. Tuang kaldu sapi, masak hingga mendidih. Beri gula, garam secukupnya, dan tuang larutan maizena. Aduk sampai kental. Tata mie dan kubis di mangkuk. Tuang kuah kaldu, taburi dengan daun bawang dan bawang goreng."
@@ -172,7 +172,7 @@
     {
       "tag": "SupMatahari",
       "patterns":[
-        "Sup Matahri", "Resep Sup Matahari", "Bagaimana cara membuat Sup Matahri", "Bahan Sup Matahari", "Buat Sup Matahari", "Bagaimana sejarah Sup Matahari"
+        "Resep Sup Matahari", "Bagaimana cara membuat Sup Matahri", "Bahan Sup Matahari", "Buat Sup Matahari"
       ],
       "responses":[
         "Bahan : 3 butir telur ayam. wortel. 3 bawang putih. 1/4 kg ayam cincang. daun bawang. kaleng kapri. jagung pipil. 1/2 bawang bombay. garam dan gula pasir. merica. Royco ayam. 1 bungkus tepung bumbu. Cara memasak : Buat telur dadar dari 2 buah telur dan sisihkan. Potong wortel kecil-kecil. Kukus bersama jagung pipil hingga matang. Campur ayam giling dengan tepung bumbu, telur, daun bawang, aduk rata. Ambil 1 dadaran telur, isi dengan adonan ayam tadi. Kukus kurang lebih 30 menit. Tumis irisan bawang bombay, bawang putih halus, merica, dan garam. Tuang air. Masukkan Royco dan sedikit gula pasir."
@@ -189,4 +189,3 @@
     }
   ]
 }
-

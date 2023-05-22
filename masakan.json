@@ -11,9 +11,9 @@
         "hy"    
       ],
       "responses": [
+        "Halo! selamat datang di RaSa, mau tahu Resep apa hari ini",
         "Hai! Mau tau informasi tentang apa nih?",
-        "Halo Kak! salam kenal ya! Mau tau tentang Masakan apa hari ini?",
-        "Halo! selamat datang di RaSa, mau tahu Resep apa hari ini"
+        "Halo Kak! salam kenal ya! Mau tau tentang Masakan apa hari ini?"
       ]
     },
     {
@@ -24,11 +24,10 @@
         "apa itu RaSa?",
         "apa itu RaSa",
         "Rasa",
-        "RaSa",
         "rasa"       
       ],
       "responses": [
-        "Hai! RaSa (Racikan Nusantara) merupakan sebuat chat bot yang terintegrasi dalam sebuah webb-app yang dibuat oleh kelompok Lexicon, web app ini menyediakan pelayanan seputar resep masakan yang ada di Nusantara dan khususnya di Jaawa Tengah untuk saat ini. Kamu bisa menanyakan berbagai Resep Masakan yng nanti akan langsung dijawab oleh kami."       
+        "Hai! RaSa (Racikan Nusantara) merupakan sebuat chat bot yang terintegrasi dalam sebuah webb-app yang dibuat oleh kelompok Lexicon, web app ini menyediakan pelayanan seputar resep masakan yang ada di Nusantara dan khususnya di Jawa Tengah untuk saat ini. Kamu bisa menanyakan berbagai Resep Masakan yang nanti akan langsung dijawab oleh kami."       
       ]
     },
     {
@@ -40,7 +39,7 @@
         "resep yang tersedia"                
       ],
       "responses": [
-        "beberapa masakan yang kami tawarkan untuk kamu : \\n1. Garang Asem \\n2. Nasi Gundul \\n 3.Soto Kudus \\n4. Nasi Grombyang \\n5. Mie Ongklok \\n6. Nasi Liwet \\n7. Mangut Beong \\n8. Sup Matahari"        
+        "beberapa masakan yang kami tawarkan untuk kamu : 1. Garang Asem  2. Nasi Gundul  3.Soto Kudus  4. Nasi Grombyang  5. Mie Ongklok  6. Nasi Liwet  7. Mangut Beong  8. Sup Matahari  9. Botok  10.Brekecek"        
       ]
     },
     {
@@ -166,13 +165,13 @@
         "Mangut Beong", "apa itu Mangut Beong", "Bagaimana sejarah Mangut Beong"
       ],
       "responses":[
-        "Sejarah Mangut Beong bisa dilihat di link sebagai berikut https://budaya-indonesia.org/Mangut-Beong-Khas-Magelang"
+        "Mangut Beong merupakan makanan khas Kabupaten Magelang, Jawa Tengah. Mangut adalah salah satu jenis masakan seperti gulai namun lebih encer dan pedas. Biasanya ikan air tawarlah yang diolah menjadi mangut. Sedangkan Beong adalah ikan endemik yang hanya bisa ditemukan di sungai Progo. Beong ini diproses dengan digoreng garing terlebih dahulu baru dimasukkan ke kuah super pedas hingga bumbunya meresap"
       ]
     },
     {
       "tag": "SupMatahari",
       "patterns":[
-        "Resep Sup Matahari", "Bagaimana cara membuat Sup Matahri", "Bahan Sup Matahari", "Buat Sup Matahari"
+        "Resep Sup Matahari", "Bagaimana cara membuat Sup Matahari", "Bahan Sup Matahari", "Buat Sup Matahari"
       ],
       "responses":[
         "Bahan : 3 butir telur ayam. wortel. 3 bawang putih. 1/4 kg ayam cincang. daun bawang. kaleng kapri. jagung pipil. 1/2 bawang bombay. garam dan gula pasir. merica. Royco ayam. 1 bungkus tepung bumbu. Cara memasak : Buat telur dadar dari 2 buah telur dan sisihkan. Potong wortel kecil-kecil. Kukus bersama jagung pipil hingga matang. Campur ayam giling dengan tepung bumbu, telur, daun bawang, aduk rata. Ambil 1 dadaran telur, isi dengan adonan ayam tadi. Kukus kurang lebih 30 menit. Tumis irisan bawang bombay, bawang putih halus, merica, dan garam. Tuang air. Masukkan Royco dan sedikit gula pasir."
@@ -184,7 +183,43 @@
         "Sup Matahari", "Apa Itu Sup Matahari", "Bagaimana sejarah Sup Matahari"
       ],
       "responses":[
-        "Sejarah Sup Matahari adalah salah satu menu masakan tradisional yang berasal dari kota Surakarta atau saat ini bernama Solo. Sup matahari juga dikenal dengan nama sup bunga matahari dikarenakan penyajiannya yang mirip dengan bunga matahari. Bagi masyarakat Solo, sup matahari mengandung filosofi berupa harapan bagi kedua pasangan yang akan segera menikah. Itulah mengapa masakan ini kerapkali hadir di acara pernikahan, dengan harapan kehidupan setelah pernikahan akan diberikan sinar kemudahan dalam menjalani rumah tangga."
+        "Sup Matahari adalah salah satu menu masakan tradisional yang berasal dari kota Surakarta atau saat ini bernama Solo. Sup matahari juga dikenal dengan nama sup bunga matahari dikarenakan penyajiannya yang mirip dengan bunga matahari. Bagi masyarakat Solo, sup matahari mengandung filosofi berupa harapan bagi kedua pasangan yang akan segera menikah. Itulah mengapa masakan ini kerapkali hadir di acara pernikahan, dengan harapan kehidupan setelah pernikahan akan diberikan sinar kemudahan dalam menjalani rumah tangga."
+      ]
+    },
+    {
+      "tag": "Botok",
+      "patterns":[
+        "Resep Botok", "Bagaimana cara membuat Botok", "Bahan Botok", "Buat Botok"
+      ],
+      "responses":[
+        "Bahan: 3 genggam daun sembukan, 1 buah kelapa muda kemudian parut, 200 gram lamtoro, Garam, 3 genggam daun beluntas, Gula pasir, 20 buah cabai rawit merah, Kaldu bubuk secukupnya. Bumbu halus: 2 ruas kencur, 7 siung bawang putih, 8 siung bawang merah, 10 buah cabai rawit merah, Bahan lain: Daun pisang sebagai pembungkus, Lidi. Cara memasak: Cuci bersih lamtoro daun beluntas dan daun sembukan lalu tiriskan, Iris-iris daun beluntas dan daun sembukan, Campurkan kelapa parut dengan bumbu halus, aduk rata, Beri garam, gula pasir, dan kaldu bubuk secukupnya, Masukkan daun beluntas, daun sembukan, dan lamtoro, Ambil selembar daun pisang, beri beberapa sendok campuran botok lamtoro, beri cabai rawit merah di atasnya, Sematkan permukaan dengan lidi, Kukus selama 20-25 menit hingga matang"
+      ]
+    },
+    {
+      "tag": "sejarahBotok",
+      "patterns":[
+        "Botok", "Apa Itu Botok", "Bagaimana sejarah Botok"
+      ],
+      "responses":[
+        "Botok adalah salah satu masakan populer di Pulau Jawa yang terbuat dari parutan kelapa dengan aneka bumbu dan rempah spesial. Parutan kelapa itu biasanya dicampur dengan aneka protein hewani maupun nabati, seperti tahu, tempe, ayam, maupun ikan. Makanan ini juga tertulis di Kitab Dewaruci."
+      ]
+    },
+    {
+      "tag": "Brekecek",
+      "patterns":[
+        "Resep Brekecek", "Bagaimana cara membuat Brekecek", "Bahan Brekecek", "Buat Brekecek"
+      ],
+      "responses":[
+        "Bahan-bahan : 500 gram ikan kembung, 3 ikat daun kemangi, 1 buah tomat, 500 gram ikan kembung, 3 ikat daun kemangi, 1 buah tomat, 2 cm lengkuas (geprek), 2 lembar daun salam, 1 batang serai, memarkan. Bumbu halus: 6 siung bawang merah, 3 siung bawang putih, 5 buah cabe merah, 5 buah cabe rawit, 2 cm kunyit, 2 cm jahe, 2 buah kemiri, 1/4 sdt ketumbar 300 ml air, 1 sendok teh gula, sendok teh garam, Sedikit Minyak goreng. Cara membuat: Cuci bersih semua bahan dan bumbu, Haluskan bumbu, potong tomat, geprek lengkuas & sereh, Tumis bumbu yang sudah dihaluskan hingga wangi,  Masukan ikan, aduk rata, Tambahkan air, lengkuas, sereh, daun salam, daun jeruk, gula dan garam. Aduk rata, Tunggu hingga mendidih, test rasa, Masukan daun kemangi dan potongan tomat, Tunggu hingga air meyusut, Brekecek ikan siap dihidangkan."
+      ]
+    },
+    {
+      "tag": "sejarah Brekecek",
+      "patterns":[
+        "Brekecek", "Apa Itu Brekecek", "Bagaimana sejarah Brekecek"
+      ],
+      "responses":[
+        "Brekecek menjadi ikon kuliner yang tak meninggalkan ciri khas wisata di Cilacap. Dari namanya, 'Brek' artinya diletakkan. 'Kecek' merupakan sebutan untuk bumbu-bumbu masakan ini yang dibuat seperti rica-rica. Jadi, Brekecek merupakan masakan dengan bumbu yang mirip rica-rica dan cara memasaknya diletakkan dan didiamkan."      
       ]
     }
   ]

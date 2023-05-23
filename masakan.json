@@ -11,9 +11,9 @@
         "hy"    
       ],
       "responses": [
-        "Halo! selamat datang di RaSa, mau tahu Resep apa hari ini",
         "Hai! Mau tau informasi tentang apa nih?",
-        "Halo Kak! salam kenal ya! Mau tau tentang Masakan apa hari ini?"
+        "Halo Kak! salam kenal ya! Mau tau tentang Masakan apa hari ini?",
+        "Halo! selamat datang di RaSa, mau tahu Resep apa hari ini"
       ]
     },
     {
@@ -24,6 +24,7 @@
         "apa itu RaSa?",
         "apa itu RaSa",
         "Rasa",
+        "RaSa",
         "rasa"       
       ],
       "responses": [
@@ -115,7 +116,7 @@
       ]
     },
     {
-      "tag": "Mie Ongklok",
+      "tag": "MieOngklok",
       "patterns":[
         "Resep Mie Ongklok", "Bagaimana cara membuat Mie Ongklok", "Bahan Mie Ongklok", "Buat Mie Ongklok"
       ],
@@ -214,12 +215,34 @@
       ]
     },
     {
-      "tag": "sejarah Brekecek",
+      "tag": "sejarahBrekecek",
       "patterns":[
         "Brekecek", "Apa Itu Brekecek", "Bagaimana sejarah Brekecek"
       ],
       "responses":[
         "Brekecek menjadi ikon kuliner yang tak meninggalkan ciri khas wisata di Cilacap. Dari namanya, 'Brek' artinya diletakkan. 'Kecek' merupakan sebutan untuk bumbu-bumbu masakan ini yang dibuat seperti rica-rica. Jadi, Brekecek merupakan masakan dengan bumbu yang mirip rica-rica dan cara memasaknya diletakkan dan didiamkan."      
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "terima kasih",
+        "cukup",
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Selamat Memasak!",
+        "sampai jumpa, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
       ]
     }
   ]

@@ -1,0 +1,191 @@
+{
+  "intents": [    
+    {
+      "tag": "ulangi",
+      "patterns": [
+        "hal random",
+        "p",
+        "apapun",
+        "bebas lepas",
+        "",
+        "kosong",
+        "siapa",
+        "ohh ya",
+        "indomie",
+        "iklan shampo"
+      ],
+      "responses": [
+        "Maaf, saya tidak memahami pertanyaan Anda. Silakan coba lagi."
+      ]
+    },
+    {
+      "tag": "perkenalan",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi"    
+      ],
+      "responses": [
+        "Halo Kak! Selamat datang di SAMSAT ChatBot"
+      ]
+    },
+    {
+      "tag": "PT1",
+      "patterns": [
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 1",
+        "Pendaftaran New Sakpole Tahap 1",
+        "Pengajuan Pendaftaran New Sakpole",
+        "Pendaftaran New Sakpole",
+        "Cara Daftar New Sakpole",
+        "Pengajuan Pendaftaran Tahap 1 New Sakpole"  ,
+        "Daftar Sakpole Tahap"     
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 1 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Pengajuan Pendaftaran <br>3. Pahami Syarat dan Ketentuan <br>4. Masukan Data Kendaraan <br>5. Cermati Data Kendaraan <br>6. Masukan Data Diri <br>7. Unggah Dokumen Persyaratan <br>8. Cermati Dokumen Persyaratan <br>9. Menunggu Verivikasi",
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Cek Status Pendaftaran <br>3. Masukan Data Kendaraan <br>4. Status Validasi Pendaftaran (Jika status pendaftaran ”Diverivikasi” maka pilih ”Bayar Pajak”) <br>5. Status Validasi Pendaftaran(Jika status pendaftaran ”Ditolak” maka pilih ”Tutup”)"       
+      ]
+    },
+    {
+      "tag": "PT2",
+      "patterns": [
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2",
+        "Pendaftaran New Sakpole Tahap 2",
+        "Pengajuan Pendaftaran Tahap 2 New Sakpole",
+        "Cara Daftar New Sakpole Tahap 2",
+        "Daftar Sakpole Tahap 2"              
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Cek Status Pendaftaran <br>3. Masukan Data Kendaraan <br>4. Status Validasi Pendaftaran (Jika status pendaftaran ”Diverivikasi” maka pilih ”Bayar Pajak”) <br>5. Status Validasi Pendaftaran(Jika status pendaftaran ”Ditolak” maka pilih ”Tutup”)"
+      ]
+    },
+    {
+      "tag": "KDB",
+      "patterns": [
+        "Mekanisme New Sakpole Dapatkan Kode Bayar",
+        "Dapatkan kode bayar New Sakpole",
+        "kode bayar dari New Sakpole",
+        "cara mendapat kode bayar di New Sakpole",
+        "kode bayar Sakpole",
+        "kode bayar newsakpole",
+        "kode bayarnya sakpole",
+        "kode bayarnya sakpole",
+        "kode bayar"
+      ],
+      "responses": [  
+        "Mekanisme New Sakpole Dapatkan Kode Bayar <br><br>1. Pilih Menu Pembayaran <br>2. Pilih Menu Dapatkan Kode Bayar <br>3. Masukan Data Kendaraan <br>4. Pahami Syarat dan Ketentuan <br>5. Total Kewajiban Pembayaran <br>6. Pilih Cara Pembayaran <br>7. Kode Bayar Sudah Didapatkan <br>8. Pilih Selesai"
+      ]
+    },
+    {
+      "tag": "JDWL",
+      "patterns": [
+        "Info Pelayanan Samsat",
+        "Jadwal samsat hari",
+        "jadwal samsat",
+        "samsat beroperasi",
+        "samsat buka jam"
+      ],
+      "responses": [
+        "Pelayanan SAMSAT Induk buka hari Senin - Jum'at Pukul 08.00-14.00 dan hari Sabtu Pukul 08.00-12.00, untuk SAMSAT cepat, siaga, keliling, dll silahkan tanyakan disini hari apa yang anda cari"
+      ]
+    },
+    {
+      "tag": "IPSN",
+      "patterns": [
+        "Info Pelayanan Hari Senin",
+        "Jadwal samsat harii senin",
+        "jadwal hari senin",
+        "samsat hari senin"
+      ],
+      "responses": [
+        "Pelayanan Hari Senin <br><br>1. SAMSAT Induk : 08.00-14.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Subah : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00 <br>8. SAMSAT Keliling Corporate PT Sukorintex : 13.00-14.30 <br>9. SAMSAT Siaga Pasar Batang : 13.00-14.30"
+      ]
+    },
+    {
+      "tag": "IPSL",
+      "patterns": [
+        "Info Pelayanan Hari Selasa",
+        "Jadwal samsat harii Selasa",
+        "jadwal hari Selasa",
+        "samsat hari Selasa"
+      ],
+      "responses": [
+        "Pelayanan Hari Selasa <br><br>1. SAMSAT Induk : 08.00-14.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Banyuputih : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00 <br>8. SAMSAT Keliling Corporate PT Sukorintex : 13.00-14.30 <br>9. SAMSAT Siaga Pasar Batang : 13.00-14.30"
+      ]
+    },
+    {
+      "tag": "IPRB",
+      "patterns": [
+        "Info Pelayanan Hari Rabu",
+        "Jadwal samsat harii Rabu",
+        "jadwal hari Rabu",
+        "samsat hari Rabu"
+      ],
+      "responses": [
+        "Pelayanan Hari Rabu <br><br>1. SAMSAT Induk : 08.00-14.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Bawang : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00 <br>8. SAMSAT Siaga Pasar Batang : 13.00-14.30"
+      ]
+    },
+    {
+      "tag": "IPKM",
+      "patterns": [
+        "Info Pelayanan Hari Kamis",
+        "Jadwal samsat harii Kamis",
+        "jadwal hari Kamis",
+        "samsat hari Kamis"
+      ],
+      "responses": [
+        "Pelayanan Hari Kamis <br><br>1. SAMSAT Induk : 08.00-14.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Bawang : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00 <br>8. SAMSAT Siaga Pasar Batang : 13.00-14.30"
+      ]
+    },
+    {
+      "tag": "IPJM",
+      "patterns": [
+        "Info Pelayanan Hari Jumat",
+        "Jadwal samsat harii Jumat",
+        "jadwal hari Jumat",
+        "samsat hari Jumat",
+        "jadwal hari Jum'at",
+        "samsat hari Jum'at"
+      ],
+      "responses": [
+        "Pelayanan Hari Jum'at <br><br>1. SAMSAT Induk : 08.00-14.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Bandar : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00 <br>8. SAMSAT Siaga Pasar Batang : 13.00-14.30"
+      ]
+    },
+    {
+      "tag": "IPSB",
+      "patterns": [
+        "Info Pelayanan Hari Sabtu",
+        "Jadwal samsat harii Sabtu",
+        "jadwal hari Sabtu",
+        "samsat hari Sabtu"
+      ],
+      "responses": [
+        "Pelayanan Hari Sabtu <br><br>1. SAMSAT Induk : 08.00-12.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Bandar : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00"
+      ]
+    },
+    {
+      "tag": "SBN",
+      "patterns": [
+        "Persyaratan Transaksi Balik Nama",
+        "syarat balik nama",
+        "Balik Nama",
+        "transaksi balik nama"
+      ],
+      "responses": [
+        "Persyaratan Transaksi Balik Nama <br><br>1. Kendaraan (Fisik) <br>2. BPKB Asli <br>3. STNK Asli <br>4. KTP Pemilik Baru <br>5. Kwitansi Pembelian"
+      ]
+    },
+    {
+      "tag": "MTK",
+      "patterns": [
+        "Alur transaksi untuk proses mutasi keluar",
+        "Alur Transaksi mutasi keluar",
+        "Proses mutasi keluar"
+      ],
+      "responses": [
+        "Alur Transaksi mutasi keluar <br><br>1. Mutasi keluar di SAMSAT asal <br>2. Cabut berkas di SATLANTAS asal <br>3. Input berkas di SATLANTAS Batang <br>4. Mutasi masuk di samsat batang (Estimasi proses sekitar 2 minggu - 1 bulan)"
+      ]
+    }
+  ]
+}

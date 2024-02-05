@@ -1,16 +1,14 @@
-{
-  "intents": [    
+ {
+  "intents": [
     {
-      "tag": "ulangi",
-      "patterns": [
+      "tag" : "ulangi",
+      "patterns" : [
         "hal random",
         "p",
         "apapun",
         "bebas lepas",
-        "",
+        "tanpa",
         "kosong",
-        "siapa",
-        "ohh ya",
         "indomie",
         "iklan shampo"
       ],
@@ -19,69 +17,81 @@
       ]
     },
     {
-      "tag": "perkenalan",
-      "patterns": [
+      "tag" : "pembuka",
+      "patterns" : [
         "hallo",
         "hai",
         "halo",
-        "hei",
-        "hi"    
+        "hi" 
       ],
       "responses": [
-        "Halo Kak! Selamat datang di SAMSAT ChatBot"
+        "Halo! Selamat datang di SAMSAT ChatBot"
       ]
     },
     {
-      "tag": "PT1",
-      "patterns": [
+      "tag" : "perkenalan",
+      "patterns" : [
+        "apa itu samsat",
+        "pengertian samsat",
+        "tentang samsat"
+      ],
+      "responses": [
+        "Samsat adalah singkatan dari Sistem Administrasi Manunggal Satu Atap. Menurut Peraturan Presiden No 5 Tahun 2015 tentang Penyelenggaraan SAMSAT, SAMSAT sendiri merupakan sebuah rangkaian sistem yang berfungsi untuk menyelenggarakan tugas Bea Balik Nama Kendaraan Bermotor (BBNKB), Registrasi serta Identifikasi Kendaraan Bermotor (Regident Ranmor), dan juga pembayaran Sumbangan Wajib Dana Kecelakaan Lalu Lintas dan Angkutan Jalan (SWDKLLJ)."
+      ]
+    },
+    {
+      "tag" : "fungsi samsat",
+      "patterns" : [
+        "apa fungsi samsat",
+        "samsat untuk apa"
+      ],
+      "responses": [
+        "Kepanjangan Samsat yakni Sistem Administrasi Manunggal Satu Atap tak terlepas dari fungsinya, yang terbagi menjadi tiga instansi pelaksana dan disebut dengan nama Tim Pembina Samsat. Pertama, ada tim dari Dinas Pendapatan Daerah (Dispenda) yang bertanggung jawab dalam pengelolaan pajak kendaraan bermotor. Kedua, Direktorat Lalu Lintas Kepolisian Daerah (Ditlantas Polda) yang menjalankan fungsi Regident Ranmor. Terakhir, PT Jasa Raharja (Persero) yang bertugas mengelola SWDKLLJ."
+      ]
+    },
+    {
+      "tag" : "PT1",
+      "patterns" : [
         "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 1",
-        "Pendaftaran New Sakpole Tahap 1",
-        "Pengajuan Pendaftaran New Sakpole",
         "Pendaftaran New Sakpole",
         "Cara Daftar New Sakpole",
         "Pengajuan Pendaftaran Tahap 1 New Sakpole"  ,
-        "Daftar Sakpole Tahap"     
+        "Daftar Sakpole"
       ],
       "responses": [
-        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 1 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Pengajuan Pendaftaran <br>3. Pahami Syarat dan Ketentuan <br>4. Masukan Data Kendaraan <br>5. Cermati Data Kendaraan <br>6. Masukan Data Diri <br>7. Unggah Dokumen Persyaratan <br>8. Cermati Dokumen Persyaratan <br>9. Menunggu Verivikasi",
-        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Cek Status Pendaftaran <br>3. Masukan Data Kendaraan <br>4. Status Validasi Pendaftaran (Jika status pendaftaran ”Diverivikasi” maka pilih ”Bayar Pajak”) <br>5. Status Validasi Pendaftaran(Jika status pendaftaran ”Ditolak” maka pilih ”Tutup”)"       
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 1 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Pengajuan Pendaftaran <br>3. Pahami Syarat dan Ketentuan <br>4. Masukan Data Kendaraan <br>5. Cermati Data Kendaraan <br>6. Masukan Data Diri <br>7. Unggah Dokumen Persyaratan <br>8. Cermati Dokumen Persyaratan <br>9. Menunggu Verivikasi <br><br> atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSJhqQvXKQ/?igsh=MWZodDBlMDgxNDc2ag target= _blank > https://www.instagram.com/p/CcSJhqQvXKQ/?igsh=MWZodDBlMDgxNDc2ag</a>",
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Cek Status Pendaftaran <br>3. Masukan Data Kendaraan <br>4. Status Validasi Pendaftaran (Jika status pendaftaran ”Diverivikasi” maka pilih ”Bayar Pajak”) <br>5. Status Validasi Pendaftaran(Jika status pendaftaran ”Ditolak” maka pilih ”Tutup”)<br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSJ_Fav634/?igsh=aWI4emRkeGlxOWlu target= _blank > https://www.instagram.com/p/CcSJ_Fav634/?igsh=aWI4emRkeGlxOWlu</a>"
       ]
     },
     {
-      "tag": "PT2",
-      "patterns": [
+      "tag" : "PT2",
+      "patterns" : [
         "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2",
-        "Pendaftaran New Sakpole Tahap 2",
         "Pengajuan Pendaftaran Tahap 2 New Sakpole",
         "Cara Daftar New Sakpole Tahap 2",
-        "Daftar Sakpole Tahap 2"              
+        "Daftar Sakpole Tahap 2"
       ],
       "responses": [
-        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Cek Status Pendaftaran <br>3. Masukan Data Kendaraan <br>4. Status Validasi Pendaftaran (Jika status pendaftaran ”Diverivikasi” maka pilih ”Bayar Pajak”) <br>5. Status Validasi Pendaftaran(Jika status pendaftaran ”Ditolak” maka pilih ”Tutup”)"
+        "Mekanisme New Sakpole Pengajuan Pendaftaran Tahap 2 <br><br>1. Pilih Menu Pendaftaran <br>2. Pilih Menu Cek Status Pendaftaran <br>3. Masukan Data Kendaraan <br>4. Status Validasi Pendaftaran (Jika status pendaftaran ”Diverivikasi” maka pilih ”Bayar Pajak”) <br>5. Status Validasi Pendaftaran(Jika status pendaftaran ”Ditolak” maka pilih ”Tutup”) <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSJ_Fav634/?igsh=aWI4emRkeGlxOWlu target= _blank > https://www.instagram.com/p/CcSJ_Fav634/?igsh=aWI4emRkeGlxOWlu</a>"
       ]
     },
     {
       "tag": "KDB",
       "patterns": [
-        "Mekanisme New Sakpole Dapatkan Kode Bayar",
+        "Mekanisme New Sakpole Kode Bayar",
         "Dapatkan kode bayar New Sakpole",
-        "kode bayar dari New Sakpole",
-        "cara mendapat kode bayar di New Sakpole",
-        "kode bayar Sakpole",
-        "kode bayar newsakpole",
-        "kode bayarnya sakpole",
-        "kode bayarnya sakpole",
+        "cara mendapat kode bayar di NewSakpole",
+        "kode bayar dari Sakpole",
         "kode bayar"
       ],
       "responses": [  
-        "Mekanisme New Sakpole Dapatkan Kode Bayar <br><br>1. Pilih Menu Pembayaran <br>2. Pilih Menu Dapatkan Kode Bayar <br>3. Masukan Data Kendaraan <br>4. Pahami Syarat dan Ketentuan <br>5. Total Kewajiban Pembayaran <br>6. Pilih Cara Pembayaran <br>7. Kode Bayar Sudah Didapatkan <br>8. Pilih Selesai"
+        "Mekanisme New Sakpole Dapatkan Kode Bayar <br><br>1. Pilih Menu Pembayaran <br>2. Pilih Menu Dapatkan Kode Bayar <br>3. Masukan Data Kendaraan <br>4. Pahami Syarat dan Ketentuan <br>5. Total Kewajiban Pembayaran <br>6. Pilih Cara Pembayaran <br>7. Kode Bayar Sudah Didapatkan <br>8. Pilih Selesai <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSKc0QvWhM/?igsh=MXc4cTRzbzVlZ3Jydw target= _blank >https://www.instagram.com/p/CcSKc0QvWhM/?igsh=MXc4cTRzbzVlZ3Jydw</a>"
       ]
     },
     {
       "tag": "JDWL",
       "patterns": [
         "Info Pelayanan Samsat",
-        "Jadwal samsat hari",
         "jadwal samsat",
         "samsat beroperasi",
         "samsat buka jam"
@@ -94,7 +104,7 @@
       "tag": "IPSN",
       "patterns": [
         "Info Pelayanan Hari Senin",
-        "Jadwal samsat harii senin",
+        "Jadwal samsat hari senin",
         "jadwal hari senin",
         "samsat hari senin"
       ],
@@ -106,7 +116,7 @@
       "tag": "IPSL",
       "patterns": [
         "Info Pelayanan Hari Selasa",
-        "Jadwal samsat harii Selasa",
+        "Jadwal samsat hari Selasa",
         "jadwal hari Selasa",
         "samsat hari Selasa"
       ],
@@ -118,7 +128,7 @@
       "tag": "IPRB",
       "patterns": [
         "Info Pelayanan Hari Rabu",
-        "Jadwal samsat harii Rabu",
+        "Jadwal samsat hari Rabu",
         "jadwal hari Rabu",
         "samsat hari Rabu"
       ],
@@ -130,7 +140,7 @@
       "tag": "IPKM",
       "patterns": [
         "Info Pelayanan Hari Kamis",
-        "Jadwal samsat harii Kamis",
+        "Jadwal samsat hari Kamis",
         "jadwal hari Kamis",
         "samsat hari Kamis"
       ],
@@ -142,11 +152,9 @@
       "tag": "IPJM",
       "patterns": [
         "Info Pelayanan Hari Jumat",
-        "Jadwal samsat harii Jumat",
+        "Jadwal samsat hari Jumat",
         "jadwal hari Jumat",
-        "samsat hari Jumat",
-        "jadwal hari Jum'at",
-        "samsat hari Jum'at"
+        "jadwal hari Jum'at"
       ],
       "responses": [
         "Pelayanan Hari Jum'at <br><br>1. SAMSAT Induk : 08.00-14.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Bandar : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00 <br>8. SAMSAT Siaga Pasar Batang : 13.00-14.30"
@@ -156,7 +164,7 @@
       "tag": "IPSB",
       "patterns": [
         "Info Pelayanan Hari Sabtu",
-        "Jadwal samsat harii Sabtu",
+        "Jadwal samsat hari Sabtu",
         "jadwal hari Sabtu",
         "samsat hari Sabtu"
       ],
@@ -188,4 +196,4 @@
       ]
     }
   ]
-}
+ }

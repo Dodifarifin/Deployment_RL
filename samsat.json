@@ -656,7 +656,7 @@
       ]
     },
     {
-      "tag" : "",
+      "tag" : "PjkSmt",
       "patterns" : [
         "Pajak kendaraan bermotor pakai KTP sementara",
         "pajak kendaraan menggunakan ktp sementara",
@@ -667,7 +667,7 @@
       ]
     },
     {
-      "tag" : "",
+      "tag" : "PmbDnda",
       "patterns" : [
         "fasilitas pembebasan denda lewat samsat",
         "lewat new sakpole apakah bisa untuk pembebasan denda",

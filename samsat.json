@@ -4,13 +4,12 @@
       "tag" : "ulangi",
       "patterns" : [
         "hal random",
-        "p",
-        "apapun",
+        "perintah kosong atau tidak jelas",
         "bebas lepas",
-        "tanpa",
+        "tanpa ada kalimat apapun",
         "kosong",
-        "minum",
-        "makan"
+        "indomie kuah dan goreng",
+        "imakan dan minum"
       ],
       "responses": [
         "Maaf, saya tidak memahami pertanyaan Anda. Silakan coba lagi."
@@ -31,9 +30,9 @@
     {
       "tag" : "perkenalan",
       "patterns" : [
-        "apa itu yang di namakan samsat",
+        "apa itu yang dinamakan samsat",
         "pengertian samsat adalah",
-        "tentang samsat"
+        "penjelasan tentang samsat"
       ],
       "responses": [
         "Samsat adalah singkatan dari Sistem Administrasi Manunggal Satu Atap. Menurut Peraturan Presiden No 5 Tahun 2015 tentang Penyelenggaraan SAMSAT, SAMSAT sendiri merupakan sebuah rangkaian sistem yang berfungsi untuk menyelenggarakan tugas Bea Balik Nama Kendaraan Bermotor (BBNKB), Registrasi serta Identifikasi Kendaraan Bermotor (Regident Ranmor), dan juga pembayaran Sumbangan Wajib Dana Kecelakaan Lalu Lintas dan Angkutan Jalan (SWDKLLJ)."
@@ -42,12 +41,80 @@
     {
       "tag" : "fungsi samsat",
       "patterns" : [
-        "apa fungsi samsat",
-        "samsat untuk apa",
-        "samsat berfungsi untuk apa"
+        "apakah fungsi samsat",
+        "samsat ada untuk apa",
+        "samsat berfungsi"
       ],
       "responses": [
-        "Kepanjangan Samsat yakni Sistem Administrasi Manunggal Satu Atap, tak terlepas dari fungsinya yang terbagi menjadi tiga instansi pelaksana dan disebut dengan nama Tim Pembina Samsat. Pertama, ada tim dari Dinas Pendapatan Daerah (Dispenda) yang bertanggung jawab dalam pengelolaan pajak kendaraan bermotor. Kedua, Direktorat Lalu Lintas Kepolisian Daerah (Ditlantas Polda) yang menjalankan fungsi Regident Ranmor. Terakhir, PT Jasa Raharja (Persero) yang bertugas mengelola SWDKLLJ."
+        "Fungsi Samsat tak terlepas dari kepanjangannya yakni Sistem Administrasi Manunggal Satu Atap, Samsat terbagi menjadi tiga instansi pelaksana dan disebut dengan nama Tim Pembina Samsat. Pertama, ada tim dari Dinas Pendapatan Daerah (Dispenda) yang bertanggung jawab dalam pengelolaan pajak kendaraan bermotor. Kedua, Direktorat Lalu Lintas Kepolisian Daerah (Ditlantas Polda) yang menjalankan fungsi Regident Ranmor. Terakhir, PT Jasa Raharja (Persero) yang bertugas mengelola SWDKLLJ."
+      ]
+    },
+    {
+      "tag" : "lokasi",
+      "patterns" : [
+        "lokasi samsat dimana",
+        "dimana letak samsat berasa",
+        "tempat kantor samsat di",
+        "posisi dimanakah samsat batang" 
+      ],
+      "responses": [
+        "Lokasi Samsat Batang <br><br>Kantor bersama Samsat Batang terletak di Jl. Urip Sumoharjo, Sambong, Kecamatan Kandeman, Kabupaten Batang, Jateng. Lokasinya berada di depan Mall Pelayanan Publik Batang."
+      ]
+    },
+    {
+      "tag" : "sosmed",
+      "patterns" : [
+        "akun sosial media samsat",
+        "media sosial yang digunakan samsat",
+        "medsos yang dimiliki oleh samsat" 
+      ],
+      "responses": [
+        "Sosial Media Samsat Batang <br><br>Twitter (X) : @batang_uppd <br>Facebook : UPPD SAMSAT BATANG <br>Tiktok : @samsat_batang <br>Instagram : @samsatkabbatang"
+      ]
+    },
+    {
+      "tag" : "nomorwa",
+      "patterns" : [
+        "nomor wa kantor samsat",
+        "hubungi kantor samsat melalui nomor yang mana",
+        "nomor hp samsat kantor",
+        "samsat dihubungi lewat mana"
+      ],
+      "responses": [
+        "Nomor WhatsApp : <a href=https://wa.link/ai913n  target= _blank >0821-3788-1929 </a> <br>Telegram : 0821-3788-1929"
+      ]
+    },
+    {
+      "tag" : "website",
+      "patterns" : [
+        "apa website samsat batang sekarang",
+        "alamat website samsat batang"
+      ],
+      "responses": [
+        "Website Samsat Batang : <a href=https://website.bapenda.jatengprov.go.id/uppd-kab-batang/page/beranda  target= _blank >website.bapenda.jatengprov.go.id/uppd-kab-batang </a>"
+      ]
+    },
+    {
+      "tag" : "sakpole",
+      "patterns" : [
+        "apa itu yang dinamakan sakpole",
+        "pengertian sakpole adalah",
+        "penjelasan tentang sakpole",
+        "tentang sakpole sendiri"
+      ],
+      "responses": [
+        "Aplikasi sakpole adalah aplikasi yang dikeluarkan Bapenda Jawa Tengah untuk memberikan wajib pajak layanan samsat secara online."
+      ]
+    },
+    {
+      "tag" : "LSP",
+      "patterns" : [
+        "apa yang ada di sakpole",
+        "layanan sakpole apa saja",
+        "isi dan pelayanan di dalam sakpole"
+      ],
+      "responses": [
+        "Aplikasi sakpole adalah aplikasi yang dikeluarkan Bapenda Jawa Tengah untuk memberikan wajib pajak layanan samsat secara online."
       ]
     },
     {
@@ -83,10 +150,110 @@
         "Dapatkan kode bayar New Sakpole",
         "cara mendapat kode bayar di NewSakpole",
         "kode bayar dari Sakpole",
-        "kode bayar"
+        "bayar new sakpole"
       ],
       "responses": [  
         "Mekanisme New Sakpole Dapatkan Kode Bayar <br><br>1. Pilih Menu Pembayaran <br>2. Pilih Menu Dapatkan Kode Bayar <br>3. Masukan Data Kendaraan <br>4. Pahami Syarat dan Ketentuan <br>5. Total Kewajiban Pembayaran <br>6. Pilih Cara Pembayaran <br>7. Kode Bayar Sudah Didapatkan <br>8. Pilih Selesai <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSKc0QvWhM/?igsh=MXc4cTRzbzVlZ3Jydw target= _blank >https://www.instagram.com/p/CcSKc0QvWhM/?igsh=MXc4cTRzbzVlZ3Jydw</a>"
+      ]
+    },
+    {
+      "tag" : "LKDB",
+      "patterns" : [
+        "bagaimana jika lupa kode bayar",
+        "apa yang harus dilakukan jika lupa kode bayar",
+        "lupa kode bayar di new sakpole harus apa",
+        "di new sakpole saya lupa kode bayar"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Lupa Kode Bayar <br><br>1. Pilih Menu Pembayaran <br>2. Pilih Menu Lupa Kode Bayar <br>3. Masukan Data Kendaraan <br>4. Kode Bayar Sudah didapatkan <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSKqS-vJSn/?igsh=MTcyaW1pbTVsN3locA target= _blank > https://www.instagram.com/p/CcSKqS-vJSn/?igsh=MTcyaW1pbTVsN3locA </a>"
+      ]
+    },
+    {
+      "tag" : "CGPbyr",
+      "patterns" : [
+        "Cara Mengganti pembayaran",
+        "saya ingin mengganti metode pembayaran",
+        "saya mau ganti cara bayar di new sakpole"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Ganti Cara Pembayaran <br><br>1. Pilih Menu Pembayaran <br>2. Pilih Menu Ganti Cara Pembayaran <br>3. Masukan Kode Bayar <br>4. Pastikan Kode Bayar Sebelum Mengganti Cara Pembayaran <br>5. Pilih Cara Pembayaran <br>6. Selesai <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSK5d1vJ9N/?igsh=aHBuMjhtaHZncnAx target= _blank > https://www.instagram.com/p/CcSK5d1vJ9N/?igsh=aHBuMjhtaHZncnAx </a>"
+      ]
+    },
+    {
+      "tag" : "SPbyr",
+      "patterns" : [
+        "cara melihat status pembayaran di new sakpole",
+        "bagaimana melihat status pembayaran di new sakpole",
+        "status pembayaran saya di sakpole"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Status Pembayaran <br><br>. Pilih Menu Pembayaran <br>2. Pilih Menu Status Pembayaran <br>3. Masukan Kode Bayar <br>4. Status Pembayaran Sudah didapatkan <br>5. Selesai <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSLH-Zvl9n/?igsh=MWI0cjZia2F1OHhwNQ== target= _blank > https://www.instagram.com/p/CcSLH-Zvl9n/?igsh=MWI0cjZia2F1OHhwNQ== </a>"
+      ]
+    },
+    {
+      "tag" : "ETBPKP",
+      "patterns" : [
+        "cara mendownload E-TBPKP",
+        "bagaimana caranya mengunduh E-TBPKP",
+        "mendapatkan ETBPKP dimana"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Unduh E-TBPKP (Bukti Pembayaran) <br><br>. Pilih Menu Pembayaran <br>2. Pilih Menu Unduh E-TBPKP (Bukti Bayar) <br>3. Masukan Kode Bayar <br>4. Notifikasi Unduh E-TBPKP (Bukti Pembayaran) Akan Muncul Pada Perangkat <br>5. Selesai <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSLaaJPunx/?igsh=MWJkNDkyMHZ0a2Fncg== target= _blank > https://www.instagram.com/p/CcSLaaJPunx/?igsh=MWJkNDkyMHZ0a2Fncg== </a>"
+      ]
+    },
+    {
+      "tag" : "EPengesahan",
+      "patterns" : [
+        "Mekanisme permohonan e-pengesahan di new sakpole",
+        "cara mengajukan permohonan e-pengesahan atau epengesahan di new sakpole",
+        "bagaimana membuat permohonan e-pengesahan di new sakpole"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Permohonan E-Pengesahan <br><br>1. Pilih Menu E-Pengesahan <br>2. Pilih Menu Permohonan E-Pengesahan <br>3. Pahami Syarat dan Ketentuan <br>4. Masukan Kode Bayar <br>5. Cermati Data Kendaraan <br>6. Menunggu Verivikasi <br>7. Notifikasi Verivikasi Akan Muncul Pada Perangkat <br>8. Selesai <br><br>Atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSLzQYvVGO/?igsh=dnoxY2kzMGE2czYx target= _blank > https://www.instagram.com/p/CcSLzQYvVGO/?igsh=dnoxY2kzMGE2czYx </a>"
+      ]
+    },
+    {
+      "tag" : "Sepengesahan",
+      "patterns" : [
+        "cara melihat status epengesahan atau e-pengesahan di new sakpole",
+        "mekanisme melihat status e-pengesahan",
+        "alur melihat e-pengesahan di new sakpole"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Melihat Status E-Pengesahan <br><br>1. Pilih Menu E-Pengesahan <br>2. Pilih Menu Status E-Pengesahan <br>3. Masukan Kode Bayar <br>4. Status Pengesahan Sudah didapatkan <br>5. Selesai <br><br>Atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSMOUAvF8d/?igsh=OThrbHRzMjE0NThk target= _blank > https://www.instagram.com/p/CcSMOUAvF8d/?igsh=OThrbHRzMjE0NThk </a>"
+      ]
+    },
+    {
+      "tag" : "Uepengesahan",
+      "patterns" : [
+        "cara mendownload E-Pengesahan",
+        "bagaimana caranya mengunduh E-Pengesahan atau epengesahan",
+        "mendapatkan E-Pengesahan dimana"
+      ],
+      "responses": [
+        "Mekanisme New Sakpole Mengunduh E-Pengesahan <br><br>1. Pilih Menu E-Pengesahan <br>2. Pilih Menu Unduh E-Pengesahan <br>3. Masukan Kode Bayar <br>4. Notifikasi Unduh E-Pengesahan Akan Muncul Pada Perangkat <br>5. Selesai <br><br>Atau akses link dibawah ini <br><br>atau akses link dibawah ini <br><a href= https://www.instagram.com/p/CcSMblTPaye/?igsh=MW1oM2xkcXpkdzhsNA== target= _blank >https://www.instagram.com/p/CcSMblTPaye/?igsh=MW1oM2xkcXpkdzhsNA==</a>"
+      ]
+    },
+    {
+      "tag" : "CPKS",
+      "patterns" : [
+        "cara cek pajak kendaraan di aplikasi new sakpole",
+        "bagaimana cek pajak di new sakpole",
+        "apakah bisa cek pajak di sakpole aplikasi"
+      ],
+      "responses": [
+        "Cara Cek Pajak Kendaraan Melalui Aplikasi Sakpole <br><br>1. Download aplikasi Sakpole di HP Anda <br>2. Buka aplikasi Sakpole <br>3. Tekan menu “Info Pajak” di halaman utama aplikasi <br>4. Masukkan nomor polisi kendaraan Anda <br>5. Tekan “Proses” <br>6. Rincian Pajak Kendaraan Anda akan muncul"
+      ]
+    },
+    {
+      "tag" : "BPNS",
+      "patterns" : [
+        "bayar Pajak Kendaraan Bermotor via aplikasi New Sakpole",
+        "cara bayar pajak kendaraan di new sakpole",
+        "alur bayar pajak di aplikasi new sakpole"
+      ],
+      "responses": [
+        "Cara Bayar Pajak Kendaraan Bermotor Via Aplikasi Sakpole  <br><br>1. Download aplikasi <br>2. Pilih menu “Bayar Pajak” <br>3. Masukkan data kendaraan yang dibutuhkan <br>4. Cek data dan tagihan yang muncul <br>5. Masukkan data diri <br>6. Lalu upload berkas persyaratan (Foto STNK, Foto KTP, & Swafoto diri memegang KTP) <br>7. Pilih menu “Pendaftaran” <br>8. Pilih “Status Pendaftaran” <br>9. Masukkan metode pembayaran yang Anda inginkan dan lakukan proses pembayaran."
       ]
     },
     {
@@ -99,6 +266,138 @@
       ],
       "responses": [
         "Pelayanan SAMSAT Induk buka hari Senin - Jum'at Pukul 08.00-14.00 dan hari Sabtu Pukul 08.00-12.00, untuk SAMSAT cepat, siaga, keliling, dll silahkan tanyakan disini hari apa yang anda cari"
+      ]
+    },
+    {
+      "tag" : "samsatcepat",
+      "patterns" : [
+        "Info Pelayanan Samsat Cepat",
+        "Jadwal samsat cepat hari apa saja",
+        "jadwal pelayanan samsat cepat kapan",
+        "samsat cepat jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Cepat <br><br>Senin : 08.00-14.00  <br>Selasa : 08.00-14.00 <br>Rabu : 08.00-14.00 <br>Kamis : 08.00-14.00 <br>Jumat : 08.00-14.00 <br>Sabtu : 08.00-12.00"
+      ]
+    },
+    {
+      "tag" : "siagagringsing",
+      "patterns" : [
+        "Info Pelayanan Samsat Siaga Gringsing",
+        "Jadwal samsat Siaga Gringsing hari apa saja",
+        "jadwal pelayanan samsat Siaga Gringsing kapan",
+        "samsat Siaga Gringsing jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Siaga Gringsing <br><br>Senin : 08.00-12.00  <br>Selasa : 08.00-12.00 <br>Rabu : 08.00-12.00 <br>Kamis : 08.00-12.00 <br>Jumat : 08.00-11.00 <br>Sabtu : 08.00-11.00"
+      ]
+    },
+    {
+      "tag" : "siagawarungasem",
+      "patterns" : [
+        "Info Pelayanan Samsat Siaga Warungasem atau warung asem",
+        "Jadwal samsat Siaga Warungasem atau warung asem hari apa saja",
+        "jadwal pelayanan samsat Siaga Warungasem atau warung asem kapan",
+        "samsat Siaga Warungasem atau warung asem jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Siaga Warungasem <br><br>Senin : 08.00-12.00  <br>Selasa : 08.00-12.00 <br>Rabu : 08.00-12.00 <br>Kamis : 08.00-12.00 <br>Jumat : 08.00-11.00 <br>Sabtu : 08.00-11.00"
+      ]
+    },
+    {
+      "tag" : "patenlimpung",
+      "patterns" : [
+        "Info Pelayanan Samsat Paten Limpung",
+        "Jadwal samsat Paten Limpung hari apa saja",
+        "jadwal pelayanan samsat Paten Limpung kapan",
+        "samsat Paten Limpung jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Paten Limpung <br><br>Senin : 08.00-12.00  <br>Selasa : 08.00-12.00 <br>Rabu : 08.00-12.00 <br>Kamis : 08.00-12.00 <br>Jumat : 08.00-11.00 <br>Sabtu : 08.00-11.00"
+      ]
+    },
+    {
+      "tag" : "KlSubah",
+      "patterns" : [
+        "Info Pelayanan Samsat Keliling Subah",
+        "Jadwal samsat Keliling Subah hari apa saja",
+        "jadwal pelayanan samsat Keliling Subah kapan",
+        "samsat Keliling Subah jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Keliling Subah <br>Senin : 08.00-12.00"
+      ]
+    },
+    {
+      "tag" : "KlBanyuputih",
+      "patterns" : [
+        "Info Pelayanan Samsat Keliling Banyuputih",
+        "Jadwal samsat Keliling Banyuputih hari apa saja",
+        "jadwal pelayanan samsat Keliling Banyuputih kapan",
+        "samsat Keliling Banyuputih jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Keliling Banyuputih <br>Selasa : 08.00-12.00"
+      ]
+    },
+    {
+      "tag" : "KlBawang",
+      "patterns" : [
+        "Info Pelayanan Samsat Keliling Bawang",
+        "Jadwal samsat Keliling Bawang hari apa saja",
+        "jadwal pelayanan samsat Keliling Bawang kapan",
+        "samsat Keliling Bawang jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Keliling Bawang <br><br>Rabu : 08.00-12.00 <br>Kamis : 08.00-12.00"
+      ]
+    },
+    {
+      "tag" : "KlBandar",
+      "patterns" : [
+        "Info Pelayanan Samsat Keliling Bandar",
+        "Jadwal samsat Keliling Bandar hari apa saja",
+        "jadwal pelayanan samsat Keliling Bandar kapan",
+        "samsat Keliling Bandar jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Keliling Bandar <br><br>Jum’at : 08.00-11.00 <br>Sabtu : 08.00-11.00"
+      ]
+    },
+    {
+      "tag" : "alunbtg",
+      "patterns" : [
+        "Info Pelayanan Samsat Malam Alun-Alun Batang",
+        "Jadwal samsat Malam Alun-Alun Batang hari apa saja",
+        "jadwal pelayanan samsat Malam Alun-Alun Batang kapan",
+        "samsat Malam Alun-Alun Batang jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Malam Alun-Alun Batang <br><br>Senin : 19.00-21.00  <br>Selasa : 19.00-21.00 <br>Rabu : 19.00-21.00 <br>Kamis : 19.00-21.00 <br>Jumat : 19.00-21.00 <br>Sabtu : 19.00-21.00"
+      ]
+    },
+    {
+      "tag" : "Klsukorintex",
+      "patterns" : [
+        "Info Pelayanan Samsat Keliling Corporate PT Sukorintex",
+        "Jadwal samsat Keliling Corporate PT Sukorintex hari apa saja",
+        "jadwal pelayanan samsat Keliling Corporate PT Sukorintex kapan",
+        "samsat Keliling Corporate PT Sukorintex jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Keliling Corporate PT Sukorintex <br><br>Senin : 13.00-14.30 <br>Selasa : 13.00-14.30"
+      ]
+    },
+    {
+      "tag" : "siagapasarbtg",
+      "patterns" : [
+        "Info Pelayanan Samsat Siaga Pasar Batang",
+        "Jadwal samsat Siaga Pasar Batang hari apa saja",
+        "jadwal pelayanan samsat Siaga Pasar Batang kapan",
+        "samsat Siaga Pasar Batang jadwalnya"
+      ],
+      "responses": [
+        "Pelayanan Samsat Siaga Pasar Batang <br><br>Senin : 13.00-14.30 <br>Selasa : 13.00-14.30 <br>Rabu : 13.00-14.30 <br>Kamis : 13.00-14.30 <br>Jumat : 13.00-14.30"
       ]
     },
     {
@@ -170,30 +469,345 @@
         "samsat hari Sabtu"
       ],
       "responses": [
-        "Pelayanan Hari Sabtu <br><br>1. SAMSAT Induk : 08.00-12.00 <br>2. SAMSAT Cepat : 08.00-14.00 <br>3. SAMSAT Siaga Gringsing : 08.00-12.00 <br>4. SAMSAT Siaga Warungasem : 08.00-12.00 <br>5. SAMSAT Paten Limpung : 08.00-12.00 <br>6. SAMSAT Keliling Bandar : 08.00-12.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00"
+        "Pelayanan Hari Sabtu <br><br>1. SAMSAT Induk : 08.00-12.00 <br>2. SAMSAT Cepat : 08.00-12.00 <br>3. SAMSAT Siaga Gringsing : 08.00-11.00 <br>4. SAMSAT Siaga Warungasem : 08.00-11.00 <br>5. SAMSAT Paten Limpung : 08.00-11.00 <br>6. SAMSAT Keliling Bandar : 08.00-11.00 <br>7. SAMSAT Malam Alun-Alun Batang : 19.00-21.00"
       ]
     },
     {
-      "tag": "SBN",
+      "tag": "ABN",
       "patterns": [
-        "Persyaratan Transaksi Balik Nama",
-        "syarat balik nama",
-        "Balik Nama",
-        "transaksi balik nama"
+        "Alur Balik Nama",
+        "Bagaimana Proses balik nama",
+        "rangkaian proses ketika balik nama"
       ],
       "responses": [
-        "Persyaratan Transaksi Balik Nama <br><br>1. Kendaraan (Fisik) <br>2. BPKB Asli <br>3. STNK Asli <br>4. KTP Pemilik Baru <br>5. Kwitansi Pembelian"
+        "ALur Balik Nama <br><br>1. Cek fisik kendaraan bermotor <br>2. Masuk kantor Satlantas bagian BPKB <br>3. Pengambilan formulir di loket SPOPD <br>4. Loket pendaftaran <br>5. Proses identifikasi, verivikasi & validasi, Jasa Raharja, dan Penetapan PKB <br>6. Pembayaran kasir (Debit atau Tunai) <br>7. Pengesahan dan penyerahan STNK <br>8. Pengambilan TNKB"
+      ]
+    },
+    {
+      "tag": "SABN",
+      "patterns": [
+        "Persyaratan Balik Nama",
+        "syarat Balik Nama",
+        "dokumen Balik Nama",
+        "Balik Nama"
+      ],
+      "responses": [
+        "Persyaratan Balik Nama <br><br>1. KTP asli atau identitas diri pemilik baru <br>2. STNK asli <br>3. Kwitansi<br>4. BPKB asli <br>5. Kendaraan"
       ]
     },
     {
       "tag": "MTK",
       "patterns": [
         "Alur transaksi untuk proses mutasi keluar",
-        "Alur Transaksi mutasi keluar",
-        "Proses mutasi keluar"
+        "proses Transaksi mutasi keluar",
+        "cara mutasi keluar"
       ],
       "responses": [
-        "Alur Transaksi mutasi keluar <br><br>1. Mutasi keluar di SAMSAT asal <br>2. Cabut berkas di SATLANTAS asal <br>3. Input berkas di SATLANTAS Batang <br>4. Mutasi masuk di samsat batang (Estimasi proses sekitar 2 minggu - 1 bulan)"
+        "ALur Transaksi Mutasi Keluar <br><br>1. Melakukan bon berkas di loket penyerahan STNK <br>2. Cek fisik kendaraan bermotor <br>3. Pengambilan formulir di loket SPOPD <br>4. Loket pendaftaran dan pemberian nomor antrian oleh petugas <br>5. Proses verivikasi data, Jasa Raharja, Penetapan pajak, dan Cetak SKKP <br>6. Pembayaran kasir (Debit atau Tunai) <br>7. Meminta fisikal antar daerah di loket SPOPD <br>8. Kantor Satlantas bagian BPKB"
+      ]
+    },
+    {
+      "tag": "SMTK",
+      "patterns": [
+        "Persyaratan Transaksi mutasi keluar",
+        "syarat mutasi keluar",
+        "dokumen mutasi keluar",
+        "transaksi mutasi keluar"
+      ],
+      "responses": [
+        "Persyaratan Mutasi Keluar <br><br>1. Cek fisik kendaraan bermotor <br>2. KTP pemilik baru <br>3. BPKB <br>4. STNK <br>5. Kwitansi jual beli bermaterai <br>6. Surat Keterangan pindah alamat (a.n Tetap)"
+      ]
+    },
+    {
+      "tag": "MTM",
+      "patterns": [
+        "Alur transaksi untuk proses mutasi Masuk",
+        "proses Transaksi mutasi Masuk",
+        "cara mutasi Masuk"
+      ],
+      "responses": [
+        "Alur Transaksi Mutasi Masuk<br><br>Sebelum di Samsat Batang <br>1. Mutasi keluar di SAMSAT asal <br>2. Cabut berkas di SATLANTAS asal <br>3. Input berkas di SATLANTAS Batang <br>4. Mutasi masuk di samsat batang (Estimasi proses sekitar 2 minggu - 1 bulan)",
+        "Sesudah di Samsat Batang <br>1. Loket cek fisik kendaraan bermotor <br>2. Masuk kantor Satlantas bagian BPKB <br>3. Pengambilan formulir di loket SPOPD <br>4. Loket pendaftaran <br>5. Proses verivikasi, Jasa Raharja, Penetapan pajak, dan Cetak SKKP <br>6. Pembayaran kasir (Debit atau Tunai) <br>7. Cetak STNK <br>8. Cetak TNKB"
+      ]
+    },
+    {
+      "tag": "SMTM",
+      "patterns": [
+        "Persyaratan Transaksi mutasi Masuk",
+        "syarat mutasi Masuk",
+        "dokumen mutasi Masuk",
+        "transaksi mutasi Masuk"
+      ],
+      "responses": [
+        "Persyaratan Mutasi Masuk <br><br>1. BPKB asli <br>2. KTP asli <br>3. Surat Keterangan pindah alamat (a.n Tetap) <br>4. Fisikal antar daerah <br>5. Kwitansi jual beli bermaterai <br>6. Hasil cek fisik <br>7. Bukti pelunasan PKB dan SWDKLLJ <br>8. SKKP asli tahun lalu"
+      ]
+    },
+    {
+      "tag": "PAL",
+      "patterns": [
+        "Alur untuk proses Proses Pindah Alamat",
+        "bagaimana proses Pindah Alamat",
+        "cara Proses Pindah Alamat"
+      ],
+      "responses": [
+        "Alur Proses Pindah Alamat <br><br>1. Cek fisik kendaraan bermotor <br>2. Isi formulir kendaraan <br>3. Pendaftaran berkas<br>4. Pembayaran kasir (Debit atau Tunai) <br>5. Penyerahan STNK <br>6. Penyerahan Plat Nomor" 
+      ]
+    },
+    {
+      "tag": "SPAL",
+      "patterns": [
+        "Persyaratan Proses Pindah Alamat",
+        "apa saja syarat Proses Pindah Alamat",
+        "dokumen syarat Pindah Alamat"
+      ],
+      "responses": [
+        "Persyaratan Proses Pindah Alamat <br><br>1. BPKB asli <br>2. KTP asli atau identitas diri <br>3. STNK asli <br>4. Surat Keterangan pindah alamat dari kelurahan <br>5. Hasil cek fisik"
+      ]
+    },
+    {
+      "tag": "SHR",
+      "patterns": [
+        "cara mengurus STNK hilang atau rusak",
+        "bagaimana proses mengurus STNK yang hilang atau rusak",
+        "alur mengurus STNK hilang atau rusak"
+      ],
+      "responses": [
+        "1. Membawa kendaraan dan syarat-syarat yang diperlukan ke kantor Samsat. <br>2. Lakukan cek fisik kendaraan. <br>3. Fotokopi hasil cek fisik dan isi formulir pendaftaran di loket pendaftaran. <br>4. Pemilik mendatangi loket untuk mengurus STNK hilang di Samsat dengan membawa dokumen persyaratan termasuk fotokopi cek fisik kendaraan. <br>5. Mengurus pembuatan STNK baru di loket BBN II. <br>6. Lampirkan semua persyaratan data dan surat keterangan hilang dari Samsat. <br>7. Jika masih ada tunggakan pajak tahunan pada pembuatan STNK baru, maka akan dikenakan biaya tambahan yakni pajak yang belum terbayarkan. <br>8. Jika tidak ada tanggungan, biaya yang dikenakan hanyalah biaya pembuatan STNK baru saja."
+      ]
+    },
+    {
+      "tag": "SSHR",
+      "patterns": [
+        "Persyaratan mengurus STNK hilang atau rusak",
+        "apa saja syarat mengurus STNK hilang atau rusak",
+        "dokumen dan syarat untuk mengurus STNK hilang atau rusak"
+      ],
+      "responses": [
+        "Persyaratan Untuk Mengurus STNK Hilang atau Rusak <br><br>1. Formulir permohonan Surat keterangan kehilangan STNK dari kepolisian.  <br>2. Apabila STNK rusak maka membawa fotokopi STNK. <br>3. Cek fisik kendaraan yang sudah dilegalisir Asli dan fotokopi BPKB. <br>4. Apabila BPKB masih di tempat leasing, maka membawa fotokopi BPKB yang sudah dilegalisir oleh pihak leasing dan surat keterangan leasing. <br>5. KTP Asli dan fotokopi dari pemilik kendaraan."
+      ]
+    },
+    {
+      "tag" : "Infopemutihan",
+      "patterns" : [
+        "Informasi Pemutihan Pajak Kendaraan Bermotor",
+        "kapan tanggal pemutihan",
+        "hari apa ada pemutihan motor atau mobil",
+        "pemutihan dilaksanakan kapan"
+      ],
+      "responses": [
+        "Untuk informasi pemutihan silahkan lihat melalui Sosial Media kami atau tanyakan melalui nomor Whatsapp dibawah <br><br>Sosial Media Samsat Batang <br>Twitter (X) : @batang_uppd <br>Facebook : UPPD SAMSAT BATANG <br>Tiktok : @samsat_batang <br>Instagram : @samsatkabbatang <br>Nomor WhatsApp : <a href=https://wa.link/ai913n  target= _blank >0821-3788-1929 </a> <br>Telegram : 0821-3788-1929"
+      ]
+    },
+    {
+      "tag" : "pemutihan",
+      "patterns" : [
+        "Syarat Pemutihan Pajak Kendaraan Bermotor",
+        "dokumen yang diperlukan untuk pemutihan",
+        "apa yang disiapkan untuk pemutihan motor atau mobil",
+        "pemutihan butuh apa saja"
+      ],
+      "responses": [
+        "Syarat Pemutihan Pajak Kendaraan Bermotor <br>1. STNK (asli dan fotokopi) <br>2. KTP (atas nama pemilik kendaraan asli dan fotokopi) <br>3. BPKB (asli dan fotokopi) <br>4. Map kuning (sepeda motor) <br>5. Map merah (mobil) <br>6. Uang pembayaran pajak pokok"
+      ]
+    },
+    {
+      "tag" : "Gplat",
+      "patterns" : [
+        "Persyaratan ganti plat apa saja",
+        "ganti plat motor atau mobil butuh apa",
+        "dokumen yang perlu disiapkan untuk ganti plat",
+        "ganti plat perlu menyiapkan apa"
+      ],
+      "responses": [
+        "Syarat Ganti Plat Kendaraan Bermotor <br><br>1. STNK asli dan fotokopi <br>2. BPKB asli dan fotokopi <br>3. KTP asli pemilik motor dan fotokopi sesuai yang tercantum di data identitas kendaraan <br>4. Surat kuasa, jika pemilik kendaraan berhalangan dan diwakilkan pihak lain <br>5. Membawa motor yang akan diganti plat nomor kendaraannya."
+      ]
+    },
+    {
+      "tag" : "PPPB",
+      "patterns" : [
+        "perpanjang 5 lima tahunan tapi bpkb di bank bagaimana",
+        "apakah boleh menggunakan bpkb fotocoy jika bpkb di bank",
+        "bpkb di bank tapi harus perpanjang lima 5 tahunan"
+      ],
+      "responses": [
+        "Proses perpanjang 5 tahunan wajib melampirkan BPKB asli atau BPKB fotocopy yang dilengkapi surat pengantar dari Bank apabila BPKB masih berada di Bank"
+      ]
+    },
+    {
+      "tag" : "PSIM",
+      "patterns" : [
+        "bagaimana cara perpanjang sim",
+        "saya ingin perpanjang sim dimana",
+        "syarat untuk perpanjang sim apa saja"
+      ],
+      "responses": [
+        "Perpanjang SIM dilakukan di Satlantas Batang namun syaratnya kurang lebih <br><br>1. Buat Surat Keterangan Kesehatan Jasmani dan Sehat Rohani. <br>2. Lakukan pendaftaran SIM baru di Loket Pendaftaran. <br>3. Lakukan pembayaran di Loket BRI. <br>4. Lakukan foto SIM dan identifikasi data di Ruang Foto. <br>5. Ikuti ujian teori di Ruang Ujian Teori. <br>6. Ikuti ujian praktik di Lapangan Uji Praktik. <br>7. Ambil SIM di Loket Penyerahan SIM."
+      ]
+    },
+    {
+      "tag" : "PSTNK",
+      "patterns" : [
+        "Cara perpanjangan STNK 5 tahunan",
+        "alur dan proses perpanjang STNK",
+        "bagaimana kita harus perpanjang STNK"
+      ],
+      "responses": [
+        "Alur Perpanjangan STNK 5 Tahunan Sebagai Berikut : <br><br>1. Datang ke Samsat Batang dengan membawa persyaratan <br>2. Melaksanakan cek fisik kendaraan <br>3. Melaksanakan pendaftaran dan pemeriksaan ulang identitas kendaraan <br>4. Cek dan memasukkan data ke sistem ERI <br>5. Pencetakan STNK dan Plat Nomor <br>6. Penyerahan STNK dan TNKB."
+      ]
+    },
+    {
+      "tag" : "",
+      "patterns" : [
+        "Pajak kendaraan bermotor pakai KTP sementara",
+        "pajak kendaraan menggunakan ktp sementara",
+        "ktp sementara apakah bisa digunakan untuk membayar pajak kendaraan"
+      ],
+      "responses": [
+        "Membayar pajak kendaraan bermotor bisa menggunakan surat keterangan dari Dukcapil apabila KTP asli belum ada"
+      ]
+    },
+    {
+      "tag" : "",
+      "patterns" : [
+        "fasilitas pembebasan denda lewat samsat",
+        "lewat new sakpole apakah bisa untuk pembebasan denda",
+        "fasilitas pembebasan denda lewat apa"
+      ],
+      "responses": [
+        "Fasilitas pembebasan denda bisa dilakukan disemua titik layanan samsat (termasuk samsat budiman) maupun di aplikasi New Sakpole"
+      ]
+    },
+    {
+      "tag" : "PSBC",
+      "patterns" : [
+        "syarat menjadi mitra samsat",
+        "syarat untuk bisa menjadi samsat budiman atau corporate",
+        "yang perlu dipersiapkan untuk menjadi samsat budiman apa saja",
+        "dokumen menjadi mitra samsat budiman atau corporate"
+      ],
+      "responses": [
+        "Syarat Pengajuan Samsat Budiman atau Corporate <br><br>1. Mengajukan surat permohonan kepada UPPD Kabupaten Batng untuk menjadi mitra Samsat Corporate <br>2. Memiliki ijin usaha koperasi perusahaan <br>3. memiliki sarana dan prasarana meliputi <br>   a. Laptop <br>   b. Printer <br>   c. Web Camera <br>   d. Jaringan Internet <br>4. Adanya petugas yang mengoperasikan aplikasi <br>5. MoU dengan Bank Jateng <br>5. MoU dengan UPPD Kabupaten Batang"
+      ]
+    },
+    {
+      "tag" : "SMTB",
+      "patterns" : [
+        "kantor samsat budiman kecamatan",
+        "samsat budiman dimana saja",
+        "lokasi samsat budiman"
+      ],
+      "responses": [
+        "Samsat Budiman Kabupaten Batang : <br><br>1. Rizki Barokah Mandiri (Tersono) <br>2. Wonotunggal Bangkit <br>3. Berkah Lestari (Banyuputih) <br> 4. Simpar (Bandar) <br>5. Gerlang Jaya (Blado) <br>6. Maju Sejahtera (Gringsing) <Br>7. BPR BKK Kantor Pusat <br>8. BPR BKK Cabang Limpung <br>9. BPR BKK Cabang Reban <br>10. BPR BKK Cabang Wonotunggal <br>11. BPR BKK Cabang Tulis"
+      ]
+    },
+    {
+      "tag" : "SBRBM",
+      "patterns" : [
+        "samsat budiman barokah mandiri",
+        "rizki barokah mandiri"
+      ],
+      "responses": [
+        "Samsat Budiman : Rizki Barokah Mandiri <br>Alamat : Dukuh Pekuncen, Desa Rejosari Timur, Kecamatan Tersono, Kabupaten Batang <br>Kontak Pribadi : 082324502401 a.n Asep Hidayat"
+      ]
+    },
+    {
+      "tag" : "SBWB",
+      "patterns" : [
+        "samsat budiman wonotunggal bangkit",
+        "wonotunggal bangkit dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : Wonotunggal Bangkit <br>Alamat : Desa Wonotunggal RT/RW 01/03, Kecamatan Wonotunggal, Kabupaten Batang <br>Kontak Pribadi : 08156912986 a.n Abdul Manan"
+      ]
+    },
+    {
+      "tag" : "SBBL",
+      "patterns" : [
+        "samsat budiman Berkah Lestari",
+        "Berkah Lestari dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : Berkah Lestari <br>Alamat : Jalan Banyuputih, Dukuh Sidorejo RT/RW 10/02 Seberang Masjid Al Mansyur Batang, Kecamatan Banyuputih, Kabupaten Batang <br>Kontak Pribadi : 085642877849 a.n Viki"
+      ]
+    },
+    {
+      "tag" : "SBSmpr",
+      "patterns" : [
+        "samsat budiman Simpaar",
+        "samsat simpar dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : Simpar <br>Alamat : Jalan Simpar, Desa Simpar, Kecamatan Bandar, Kabupaten Batang <br>Kontak Pribadi : 085640812244 a.n Malikan"
+      ]
+    },
+    {
+      "tag" : "SBGJ",
+      "patterns" : [
+        "samsat budiman Gerlang Jaya",
+        "gerlang jaya dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : Gerlang Jaya <br>Alamat : Jalan Raya Bandar – Batur KM 20 Desa Gerlang, Kecamatan Blado, Kabupaten Batang <br>Kontak Pribadi : 082325428466 a.n Irma"
+      ]
+    },
+    {
+      "tag" : "SBMS",
+      "patterns" : [
+        "samsat budiman Maju Sejahtera",
+        "samsat maju sejahtera dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : Maju Sejahtera <br>Alamat : Jalan Raya Plelen No 392, Kecamatan Gringsing, Kabupaten Batang"
+      ]
+    },
+    {
+      "tag" : "SBBKP",
+      "patterns" : [
+        "samsat budiman BPR BKK Kantor Pusat",
+        "BPR BKK Kantor Pusat dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : BPR BKK Kantor Pusat <br>Alamat : Jalan Yos Sudarso Karangasem Utara, Kabupaten Batang"
+      ]
+    },
+    {
+      "tag" : "SBBKCL",
+      "patterns" : [
+        "samsat budiman BPR BKK Cabang Limpung ",
+        "BPR BKK Cabang Limpung dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : BPR BKK Cabang Limpung <br>Alamat : Jalan Raya Tersono – Limpung Nomor 117, Kecamatan Limpung, Kabupaten Batang"
+      ]
+    },
+    {
+      "tag" : "SBBKCR",
+      "patterns" : [
+        "samsat budiman BPR BKK Cabang Reban",
+        "BPR BKK Cabang Reban dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : BPR BKK Cabang Reban <br>Alamat : Jalan Raya Reban – Blado KM 1, Kecamatan Reban, Kabupaten Batang"
+      ]
+    },
+    {
+      "tag" : "SBBKCW",
+      "patterns" : [
+        "samsat budiman BPR BKK Cabang Wonotunggal",
+        "BPR BKK Cabang Wonotunggal dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : BPR BKK Cabang Wonotunggal <br>Alamat : Jalan Raya Tugu No 1, Kecamatan Wonotunggal, Kabupaten Batang"
+      ]
+    },
+    {
+      "tag" : "SBBKCT",
+      "patterns" : [
+        "samsat budiman BPR BKK Cabang Tulis",
+        "BPR BKK Cabang Tulis dimana"
+      ],
+      "responses": [
+        "Samsat Budiman : BPR BKK Cabang Tulis <br>Alamat : Jalan Raya Simbangdesa, Kecamatan Tulis, Kabupaten Batang"
       ]
     }
   ]
